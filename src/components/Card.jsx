@@ -7,12 +7,12 @@ import { shortenText } from "../helper/helper";
 import styles from "./Card.module.css";
 
 const Card = ({ data }) => {
-  const { id, title, images, price } = data;
+  const { id, title, image, price } = data;
 
-  console.log(data);
+
   return (
     <div className={styles.card}>
-      <img src={images} alt={title} />
+      <img src={image} alt={title} />
       <h3>{shortenText(title)}</h3>
       <p>{price} $</p>
       <div className={styles.actions}>

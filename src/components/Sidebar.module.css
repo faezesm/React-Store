@@ -1,0 +1,41 @@
+.sidebar{
+  width: 200px;
+  height: fit-content;
+  margin: 10px;
+  margin-left: 30px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px dashed #e2e2e2;
+  border-radius: 20px;
+}
+
+.sidebar div{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  color: #1A237E;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.sidebar p{
+  margin-left: 10px;
+}
+
+.sidebar li{
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.sidebar li:hover{
+  color: #1A237E;
+}
+
+.selected {
+  color: #1A237E;
+  background-color: #d4d4d4;
+  font-weight: 500;
+  border-radius: 10px;
+}

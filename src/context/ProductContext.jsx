@@ -24,12 +24,17 @@ const ProductProvider = ({ children }) => {
   );
 };
 
-
 // Custom Hook
 const useProduct = () => {
   const products = useContext(ProductContext);
   return products;
 };
 
+const useProductDetails = (id) => {
+  const products = useContext(ProductContext);
+  const result = products.find((item) => item.id === id);
+  return result;
+};
+
 export default ProductProvider;
-export {useProduct}
+export { useProduct , useProductDetails};

@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  min-height: 1000px;
+  width: 100%;
+}
+
+.container img{
+  width: 300px;
+  margin: 10px;
+  padding: 15px 25px;
+  background-color: #fff;
+  border: 2px dashed #1A237E;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.information{
+  width: 100%;
+  border: 2px dashed #1A237E;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 25px;
+}
+
+.title{
+  color: #1A237E;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.description {
+  color: #78716c;
+  width: 500px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.category{
+  margin-bottom: 10px;
+}
+
+.category svg ,
+.information span svg{
+  color: #1A237E;
+  margin-right: 10px;
+}
+
+.information div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.information a{
+  display: flex;
+  align-items: center;
+  background-color: #1A237E;
+  border-radius: 12px;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.information a svg{
+  margin-right: 10px;
+}
